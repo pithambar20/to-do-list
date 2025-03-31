@@ -1,0 +1,22 @@
+h1{
+   
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.to-do{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20;
+    
+
+
+}
