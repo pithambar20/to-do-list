@@ -1,22 +1,118 @@
-h1{
+/* h1{
    
     display: flex;
     flex:1;
     flex-direction: row;
     justify-content:center;
     align-items: center;
+    background-color:burlywood;
     
 
+} */
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .to-do{
     display:flex;
-    flex:1;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 20;
-    
-
+    background-color:cyan;
 
 }
+
+#task-input{
+    padding:20;
+    margin-top:150px;
+    margin-bottom: 20px;
+    width:200px;
+    max-width:300px;
+    height:60px;
+    font-family: sans-serif;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220610/pngtree-chalkboard-backdrop-with-chalked-todo-list-form-nobody-drawn-photo-image_31340962.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    
+    
+    
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-heading {
+    margin: 0;
+    font-size: 2em;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-size: 25px;
+}
+
+.nav-links a:hover {
+    background-color: #a1a8a0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 80px; /* Adjust margin to accommodate the navbar */
+    margin-bottom: 20px;
+}
+
